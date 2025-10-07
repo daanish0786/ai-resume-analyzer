@@ -101,3 +101,36 @@ ai-resume-analyzer/
 
 ## 7) License
 MIT
+
+# 🚀 AI Resume Analyzer  
+
+**Author:** Daanish Shaikh  
+A Streamlit web app that analyzes resumes against job descriptions using AI-based embeddings and ATS hygiene checks.
+
+---
+
+## 🧠 Features
+- 📄 Extracts text from resumes (PDF)
+- 🔍 Matches JD keywords and calculates similarity score
+- ⚙️ Detects missing skills and keywords
+- ✅ ATS and formatting hygiene audit
+- 📊 Downloadable report summary
+
+---
+
+## 🛠️ Tech Stack
+- Python 3.10 + Streamlit  
+- SentenceTransformers / OpenAI Embeddings  
+- PyPDF2 for PDF text extraction  
+- Custom CSS for UI styling  
+
+---
+
+## ⚙️ Run Locally
+```bash
+git clone https://github.com/daanish0786/ai-resume-analyzer.git
+cd ai-resume-analyzer
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+streamlit run app.py
